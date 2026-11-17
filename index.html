@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Talkio around the world | Talkio</title>
+<link rel="icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="deck.css">
+<style>
+  html, body { margin: 0; height: 100%; background: #15161c; overflow: hidden; }
+  h1, h2, h3, p, ul { margin: 0; }
+  #stage { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+  #deck { width: 1920px; height: 1080px; position: relative; flex: none; transform-origin: center center; background: #ffffff; }
+  #deck > section { position: absolute; inset: 0; width: 1920px; height: 1080px; box-sizing: border-box; overflow: hidden; }
+  #deck > section:not(.active) { display: none !important; }
+  aside { display: none !important; }
+  .icon-tile svg.xi { width: 32px; height: 32px; color: var(--brand-primary-main); }
+  #nav { position: fixed; right: 16px; bottom: 16px; display: flex; align-items: center; gap: 8px;
+         font: 500 14px/1 'Inter', Arial, sans-serif; color: #c9cad3; z-index: 2; }
+  #nav button { width: 40px; height: 40px; border-radius: 20px; border: 1px solid #ffffff33; background: #21222ccc;
+                color: #f7f7f8; font-size: 18px; cursor: pointer; }
+  #nav button:focus-visible { outline: 2px solid #2984e8; outline-offset: 2px; }
+  #count { min-width: 56px; text-align: center; }
+</style>
+</head>
+<body>
+<div id="stage"><div id="deck">
+<section id="cover" class="dark" data-transition="fade" style="justify-content:space-between">
+<img src="assets/talkio-white.png" alt="Talkio logo" style="width:320px; height:80px; object-fit:contain; align-self:flex-start">
+<div class="head" style="gap:32px">
+<h1 class="rise">Talkio around the world</h1>
+<p class="lead rise d2" style="max-width:1200px">What Talkio looks like outside Korea: our partners around the world, and where we are heading.</p>
+</div>
+<p class="small rise d3" style="color:var(--on-dark-soft)">November 2026</p>
+<aside>Hi everyone. You all know Talkio inside out, so today I won't talk much about the product. Instead I want to show you what Talkio looks like in the rest of the world: who our partners are in the US, Brazil, Poland and Germany, and where we're taking the business next.</aside>
+</section>
+<section id="intro" class="footer spread">
+<div class="head">
+<p class="eyebrow">Talkio outside Korea</p>
+<h2>More than 40 partners worldwide</h2>
+</div>
+<div class="row">
+<div class="card rise d1">
+<div class="icon-tile"><svg class="xi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+<h3>Language schools</h3>
+<p class="txt">From global names like Berlitz to SWAI, the biggest German school in Brazil.</p>
+</div>
+<div class="card rise d2">
+<div class="icon-tile"><svg class="xi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+<h3>Corporate trainers</h3>
+<p class="txt">Providers like pogad.ai in Poland and kmp. in Germany, training staff at hundreds of companies.</p>
+</div>
+<div class="card rise d3">
+<div class="icon-tile"><svg class="xi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><path d="M22 10v6"/></svg></div>
+<h3>Universities</h3>
+<p class="txt">Universities like the University of Virginia in the United States.</p>
+</div>
+</div>
+<p class="lead">Three kinds of partner, in the Americas and Europe.</p>
+<img class="foot-logo" src="assets/talkio.png" alt="Talkio">
+<aside>Outside Korea, Talkio has more than 40 partners. They fall into three groups. Language schools, from a global name like Berlitz to SWAI, the biggest German school in Brazil. Corporate trainers, like pogad.ai in Poland and kmp. in Germany, who train employees at hundreds of companies. And universities, like the University of Virginia. Let's meet some of them.</aside>
+</section>
+<section id="partners" class="footer">
+<div class="head">
+<p class="eyebrow">Our partners</p>
+<h2>Partners around the world</h2>
+</div>
+<div class="row">
+<div class="card pcard rise d1">
+<div class="logo-well"><img src="assets/berlitz.jpg" alt="Berlitz logo"></div>
+<p class="country">United States</p>
+<h3>Berlitz</h3>
+<p class="txt">One of the world’s best-known language schools</p>
+</div>
+<div class="card pcard rise d2">
+<div class="logo-well"><img src="assets/uva.jpg" alt="University of Virginia logo"></div>
+<p class="country">United States</p>
+<h3>University of Virginia</h3>
+<p class="txt">A public research university in Virginia</p>
+</div>
+<div class="card pcard rise d3">
+<div class="logo-well"><img src="assets/swai.png" alt="SWAI logo"></div>
+<p class="country">Brazil</p>
+<h3>SWAI</h3>
+<p class="txt">The biggest German school in Brazil</p>
+</div>
+<div class="card pcard rise d4">
+<div class="logo-well"><img src="assets/pogad.png" alt="pogad.ai logo"></div>
+<p class="country">Poland</p>
+<h3>pogad.ai</h3>
+<p class="txt">Poland’s biggest language school for businesses</p>
+</div>
+<div class="card pcard rise d5">
+<div class="logo-well"><img src="assets/kmp.png" alt="kmp. logo"></div>
+<p class="country">Germany</p>
+<h3>kmp.</h3>
+<p class="txt">Corporate language training in more than 30 languages</p>
+</div>
+</div>
+<p class="small">Five of our more than 40 partners around the world.</p>
+<img class="foot-logo" src="assets/talkio.png" alt="Talkio">
+<aside>Here are some of our partners. In the United States, Berlitz, one of the best-known language schools in the world, and the University of Virginia. In Brazil, SWAI from Sprache&amp;Wissen, the biggest German school in the country. In Poland, pogad.ai from TEACHERSteam, the biggest language school in Poland offering training to businesses. And in Germany, kmp., a corporate language training provider. Schools, a university and corporate trainers: very different organisations, all using Talkio to give their learners more speaking practice.</aside>
+</section>
+<section id="berlitz" class="footer">
+<div class="head">
+<p class="eyebrow">Partner · United States</p>
+<h2>Berlitz</h2>
+</div>
+<div class="split">
+<div class="col">
+<p class="lead">One of the world’s best-known language schools, teaching languages for more than 140 years. Berlitz learners practise speaking with Talkio.</p>
+<div class="facts">
+<div class="fact rise d1">
+<h3>More speaking practice</h3>
+<p class="txt">Learners practise real conversations with an AI tutor alongside their Berlitz courses.</p>
+</div>
+<div class="fact rise d2">
+<h3>The Berlitz Method</h3>
+<p class="txt">Practice built around Berlitz’s own teaching method and content.</p>
+</div>
+<div class="fact rise d3">
+<h3>A worldwide school</h3>
+<p class="txt">Berlitz teaches in language centres and online around the world.</p>
+</div>
+</div>
+</div>
+<div class="side">
+<div class="logo-card"><img src="assets/berlitz.jpg" alt="Berlitz logo"></div>
+</div>
+</div>
+<img class="foot-logo" src="assets/talkio.png" alt="Talkio">
+<aside>Berlitz is our partner in the US, and one of the best-known language schools in the world, with more than 140 years of teaching. Berlitz learners use Talkio for extra speaking practice alongside their courses. The practice follows the Berlitz Method and Berlitz's own content. And with Berlitz teaching in centres and online around the world, it's our widest-reaching school partner.</aside>
+</section>
+<section id="swai" class="footer">
+<div class="head">
+<p class="eyebrow">Partner · Brazil</p>
+<h2>SWAI by Sprache&amp;Wissen</h2>
+</div>
+<div class="split">
+<div class="col">
+<p class="lead">Sprache&amp;Wissen is the biggest German school in Brazil. Its students practise speaking with Talkio through SWAI.</p>
+<div class="facts">
+<div class="fact rise d1">
+<h3>German and English</h3>
+<p class="txt">AI speaking practice for learners of German, and of English too.</p>
+</div>
+<div class="fact rise d2">
+<h3>In the learners’ own language</h3>
+<p class="txt">Learners are guided in Brazilian Portuguese.</p>
+</div>
+<div class="fact rise d3">
+<h3>Part of the school</h3>
+<p class="txt">The AI tutor is part of Sprache&amp;Wissen’s courses and programmes.</p>
+</div>
+</div>
+</div>
+<div class="side">
+<div class="logo-card"><img src="assets/swai.png" alt="SWAI logo"></div>
+</div>
+</div>
+<img class="foot-logo" src="assets/talkio.png" alt="Talkio">
+<aside>In Brazil we partner with Sprache&amp;Wissen, the biggest German school in the country. Their students practise speaking with Talkio through SWAI, for German and also for English. Learners are guided in Brazilian Portuguese, their own language, and the AI tutor is part of the school's courses and programmes.</aside>
+</section>
+<section id="pogad" class="footer">
+<div class="head">
+<p class="eyebrow">Partner · Poland</p>
+<h2>pogad.ai by TEACHERSteam</h2>
+</div>
+<div class="split">
+<div class="col">
+<p class="lead">TEACHERSteam is the biggest language school in Poland offering training to businesses. With pogad.ai, powered by Talkio, their learners practise speaking with AI.</p>
+<div class="facts">
+<div class="fact rise d1">
+<h3>Training for businesses</h3>
+<p class="txt">Language courses for several hundred companies across Poland since 2005.</p>
+</div>
+<div class="fact rise d2">
+<h3>AI speaking practice</h3>
+<p class="txt">Employees practise real conversations with an AI tutor alongside their courses.</p>
+</div>
+<div class="fact rise d3">
+<h3>Made for Polish learners</h3>
+<p class="txt">Learners are guided in Polish, their own language.</p>
+</div>
+</div>
+</div>
+<div class="side">
+<div class="logo-card"><img src="assets/pogad.png" alt="pogad.ai logo"></div>
+</div>
+</div>
+<img class="foot-logo" src="assets/talkio.png" alt="Talkio">
+<aside>In Poland our partner is TEACHERSteam, the biggest language school in Poland offering training to businesses. They have trained employees at several hundred Polish companies since 2005. Their AI product, pogad.ai, is powered by Talkio: employees practise real conversations with an AI tutor alongside their courses, guided in Polish.</aside>
+</section>
+<section id="kmp" class="footer">
+<div class="head">
+<p class="eyebrow">Partner · Germany</p>
+<h2>kmp.</h2>
+</div>
+<div class="split">
+<div class="col">
+<p class="lead">A corporate language training provider since 1991, working with companies around the world. kmp.’s learners practise speaking with Talkio.</p>
+<div class="grid2">
+<div class="card rise d1">
+<p class="stat">30+</p>
+<p class="txt">languages trained</p>
+</div>
+<div class="card rise d2">
+<p class="stat">1,500+</p>
+<p class="txt">qualified trainers worldwide</p>
+</div>
+<div class="card rise d3">
+<p class="stat">800+</p>
+<p class="txt">companies supported</p>
+</div>
+<div class="card rise d4">
+<p class="stat">50+</p>
+<p class="txt">industries</p>
+</div>
+</div>
+</div>
+<div class="side">
+<div class="logo-card"><img src="assets/kmp.png" alt="kmp. logo"></div>
+</div>
+</div>
+<img class="foot-logo" src="assets/talkio.png" alt="Talkio">
+<aside>In Germany we partner with kmp., a corporate language training provider founded in 1991. Their numbers show the kind of customer they serve: more than 30 languages, over 1,500 trainers and more than 800 companies across 50 industries. Their learners practise speaking with Talkio. kmp. is a good example of where we're heading: large organisations that need language training at scale, across many languages and teams.</aside>
+</section>
+<section id="next" class="blue" data-transition="fade">
+<div class="head" style="gap:40px">
+<p class="eyebrow rise">Where Talkio is heading</p>
+<h1 class="rise d1" style="max-width:1500px">A versatile B2B product for language goals at scale</h1>
+<p class="lead rise d2" style="max-width:1300px">For large organisations, universities and schools: set goals, practise every day and track progress.</p>
+</div>
+<aside>That's Talkio around the world today. Now, where we're heading. What we hear from partners everywhere is the same: organisations want more than practice. They want to set language goals, have people practise towards them, and see progress. So our plan is to make Talkio a versatile B2B product for language goals and tracking in large organisations, universities and schools.</aside>
+</section>
+<section id="segments" class="footer spread">
+<div class="head">
+<p class="eyebrow">Who it is for</p>
+<h2>Three kinds of organisation</h2>
+</div>
+<div class="row">
+<div class="card rise d1">
+<div class="icon-tile"><svg class="xi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+<h3>Large organisations</h3>
+<ul class="list">
+<li>Language goals per team and role</li>
+<li>Progress reports for HR and L&amp;D</li>
+<li>Sign-in from their own systems</li>
+</ul>
+<p class="country" style="margin-top:12px">Today: kmp. and pogad.ai</p>
+</div>
+<div class="card rise d2">
+<div class="icon-tile"><svg class="xi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><path d="M22 10v6"/></svg></div>
+<h3>Universities</h3>
+<ul class="list">
+<li>Talkio inside the LMS they already use</li>
+<li>Grades sent back to the gradebook</li>
+<li>Course paths per programme</li>
+</ul>
+<p class="country" style="margin-top:12px">Today: University of Virginia</p>
+</div>
+<div class="card rise d3">
+<div class="icon-tile"><svg class="xi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+<h3>Schools</h3>
+<ul class="list">
+<li>Classes and groups</li>
+<li>Assignments that teachers review</li>
+<li>A simple setup for teachers</li>
+</ul>
+<p class="country" style="margin-top:12px">Today: Berlitz and SWAI</p>
+</div>
+</div>
+<p class="lead">Our partners around the world already cover all three. The next step is one product that serves them all.</p>
+<img class="foot-logo" src="assets/talkio.png" alt="Talkio">
+<aside>Three kinds of organisation need this, and we already have partners in each. Large organisations, served today through corporate trainers like kmp. and pogad.ai, want goals per team and role, reports for HR, and sign-in through their own systems. Universities, like the University of Virginia, want Talkio inside the learning platform they already use, with grades going back to the gradebook. Schools, like Berlitz and SWAI, want classes, groups and assignments teachers can review. The plan is one product that serves all three, everywhere we work, including Korea.</aside>
+</section>
+<section id="team" class="footer">
+<div class="head">
+<p class="eyebrow">The people behind Talkio</p>
+<h2>Our team</h2>
+</div>
+<div class="team">
+<div class="card rise d1">
+<svg aria-label="Line-drawn portrait of Theis with a rocket badge" width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="clip-theis"><circle cx="60" cy="60" r="60"/></clipPath></defs><circle cx="60" cy="60" r="60" fill="#eaf3fd"/><g clip-path="url(#clip-theis)"><path d="M54 66 L54 84 L66 84 L66 66" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><path d="M18 124 C18 94 36 80 60 80 C84 80 102 94 102 124 Z" fill="#2984e8" stroke="#21222c" stroke-width="3"/><path d="M50 81 L60 93 L70 81" fill="none" stroke="#fbfbf8" stroke-width="3" stroke-linejoin="round"/></g><circle cx="60" cy="50" r="21" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><circle cx="52.5" cy="48" r="2.5" fill="#21222c"/><circle cx="67.5" cy="48" r="2.5" fill="#21222c"/><path d="M53 57 Q60 63 67 57" fill="none" stroke="#21222c" stroke-width="3" stroke-linecap="round"/><circle cx="96" cy="96" r="17" fill="#fbfbf8" stroke="#21222c" stroke-width="2.5"/><path d="M96 84 C101 88 102 95 100 102 L92 102 C90 95 91 88 96 84 Z" fill="#2984e8" stroke="#21222c" stroke-width="2"/><circle cx="96" cy="93" r="2.2" fill="#fbfbf8" stroke="#21222c" stroke-width="1.5"/><path d="M92 99 L88 104 L92 103 M100 99 L104 104 L100 103" fill="none" stroke="#21222c" stroke-width="2" stroke-linejoin="round"/></svg>
+<h3>Theis</h3>
+<p class="role">CEO and CTO</p>
+</div>
+<div class="card rise d1">
+<svg aria-label="Line-drawn portrait of Artem with a pencil badge" width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="clip-artem"><circle cx="60" cy="60" r="60"/></clipPath></defs><circle cx="60" cy="60" r="60" fill="#f2f0ff"/><g clip-path="url(#clip-artem)"><path d="M54 66 L54 84 L66 84 L66 66" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><path d="M18 124 C18 94 36 80 60 80 C84 80 102 94 102 124 Z" fill="#7f6bff" stroke="#21222c" stroke-width="3"/><path d="M50 81 Q60 89 70 81" fill="none" stroke="#fbfbf8" stroke-width="3" stroke-linecap="round"/></g><circle cx="60" cy="50" r="21" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><circle cx="52.5" cy="48" r="2.5" fill="#21222c"/><circle cx="67.5" cy="48" r="2.5" fill="#21222c"/><path d="M53 57 Q60 63 67 57" fill="none" stroke="#21222c" stroke-width="3" stroke-linecap="round"/><circle cx="96" cy="96" r="17" fill="#fbfbf8" stroke="#21222c" stroke-width="2.5"/><path d="M88 104 L89.5 98 L101 86.5 L105.5 91 L94 102.5 Z" fill="#f6d78b" stroke="#21222c" stroke-width="2" stroke-linejoin="round"/><path d="M98.5 89 L103 93.5" stroke="#21222c" stroke-width="2"/></svg>
+<h3>Artem</h3>
+<p class="role">Design lead</p>
+</div>
+<div class="card rise d2">
+<svg aria-label="Line-drawn portrait of Hammas with a code badge" width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="clip-hammas"><circle cx="60" cy="60" r="60"/></clipPath></defs><circle cx="60" cy="60" r="60" fill="#e8f6ee"/><g clip-path="url(#clip-hammas)"><path d="M54 66 L54 84 L66 84 L66 66" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><path d="M18 124 C18 94 36 80 60 80 C84 80 102 94 102 124 Z" fill="#2fa464" stroke="#21222c" stroke-width="3"/><path d="M55 84 L55 97 M65 84 L65 97" fill="none" stroke="#fbfbf8" stroke-width="3" stroke-linecap="round"/></g><circle cx="60" cy="50" r="21" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><circle cx="52.5" cy="48" r="2.5" fill="#21222c"/><circle cx="67.5" cy="48" r="2.5" fill="#21222c"/><path d="M53 57 Q60 63 67 57" fill="none" stroke="#21222c" stroke-width="3" stroke-linecap="round"/><circle cx="96" cy="96" r="17" fill="#fbfbf8" stroke="#21222c" stroke-width="2.5"/><path d="M91 89 L85 96 L91 103 M101 89 L107 96 L101 103" fill="none" stroke="#2fa464" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M98 87 L94 105" stroke="#21222c" stroke-width="2.5" stroke-linecap="round"/></svg>
+<h3>Hammas</h3>
+<p class="role">Development lead</p>
+</div>
+<div class="card rise d2">
+<svg aria-label="Line-drawn portrait of Ali with a laptop badge" width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="clip-ali"><circle cx="60" cy="60" r="60"/></clipPath></defs><circle cx="60" cy="60" r="60" fill="#fdf3da"/><g clip-path="url(#clip-ali)"><path d="M54 66 L54 84 L66 84 L66 66" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><path d="M18 124 C18 94 36 80 60 80 C84 80 102 94 102 124 Z" fill="#e9b949" stroke="#21222c" stroke-width="3"/><path d="M50 81 Q60 89 70 81" fill="none" stroke="#fbfbf8" stroke-width="3" stroke-linecap="round"/><rect x="68" y="97" width="11" height="9" rx="1.5" fill="none" stroke="#fbfbf8" stroke-width="2.5"/></g><circle cx="60" cy="50" r="21" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><circle cx="52.5" cy="48" r="2.5" fill="#21222c"/><circle cx="67.5" cy="48" r="2.5" fill="#21222c"/><path d="M53 57 Q60 63 67 57" fill="none" stroke="#21222c" stroke-width="3" stroke-linecap="round"/><circle cx="96" cy="96" r="17" fill="#fbfbf8" stroke="#21222c" stroke-width="2.5"/><rect x="87" y="87" width="18" height="12" rx="2" fill="#fdf3da" stroke="#21222c" stroke-width="2"/><path d="M84 103 L108 103" stroke="#21222c" stroke-width="3" stroke-linecap="round"/></svg>
+<h3>Ali</h3>
+<p class="role">Developer</p>
+</div>
+<div class="card rise d3">
+<svg aria-label="Line-drawn portrait of Maryna with a book badge" width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="clip-maryna"><circle cx="60" cy="60" r="60"/></clipPath></defs><circle cx="60" cy="60" r="60" fill="#fde9e1"/><g clip-path="url(#clip-maryna)"><path d="M54 66 L54 84 L66 84 L66 66" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><path d="M18 124 C18 94 36 80 60 80 C84 80 102 94 102 124 Z" fill="#e8743b" stroke="#21222c" stroke-width="3"/><path d="M51 81 L60 104 M69 81 L60 104" fill="none" stroke="#fbfbf8" stroke-width="3" stroke-linecap="round"/></g><circle cx="60" cy="50" r="21" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><circle cx="52.5" cy="48" r="2.5" fill="#21222c"/><circle cx="67.5" cy="48" r="2.5" fill="#21222c"/><path d="M53 57 Q60 63 67 57" fill="none" stroke="#21222c" stroke-width="3" stroke-linecap="round"/><circle cx="96" cy="96" r="17" fill="#fbfbf8" stroke="#21222c" stroke-width="2.5"/><path d="M96 90 C92 87 88 87 85 88 L85 103 C88 102 92 102 96 105 C100 102 104 102 107 103 L107 88 C104 87 100 87 96 90 Z" fill="#fde9e1" stroke="#21222c" stroke-width="2" stroke-linejoin="round"/><path d="M96 90 L96 105" stroke="#21222c" stroke-width="2"/></svg>
+<h3>Maryna</h3>
+<p class="role">Learning designer</p>
+</div>
+<div class="card rise d3">
+<svg aria-label="Line-drawn portrait of Greg with a speech bubble badge" width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="clip-greg"><circle cx="60" cy="60" r="60"/></clipPath></defs><circle cx="60" cy="60" r="60" fill="#e6f4f4"/><g clip-path="url(#clip-greg)"><path d="M54 66 L54 84 L66 84 L66 66" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><path d="M18 124 C18 94 36 80 60 80 C84 80 102 94 102 124 Z" fill="#3a9e9a" stroke="#21222c" stroke-width="3"/><path d="M50 80 L56 89 L60 83 L64 89 L70 80" fill="none" stroke="#fbfbf8" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g><circle cx="60" cy="50" r="21" fill="#fbfbf8" stroke="#21222c" stroke-width="3"/><circle cx="52.5" cy="48" r="2.5" fill="#21222c"/><circle cx="67.5" cy="48" r="2.5" fill="#21222c"/><path d="M53 57 Q60 63 67 57" fill="none" stroke="#21222c" stroke-width="3" stroke-linecap="round"/><circle cx="96" cy="96" r="17" fill="#fbfbf8" stroke="#21222c" stroke-width="2.5"/><path d="M86 88 L106 88 Q109 88 109 91 L109 100 Q109 103 106 103 L95 103 L90 107 L90 103 L86 103 Q83 103 83 100 L83 91 Q83 88 86 88 Z" fill="#e6f4f4" stroke="#21222c" stroke-width="2" stroke-linejoin="round"/><circle cx="91" cy="95.5" r="1.6" fill="#21222c"/><circle cx="96" cy="95.5" r="1.6" fill="#21222c"/><circle cx="101" cy="95.5" r="1.6" fill="#21222c"/></svg>
+<h3>Greg</h3>
+<p class="role">Sales lead</p>
+</div>
+</div>
+<img class="foot-logo" src="assets/talkio.png" alt="Talkio">
+<aside>This is the team building Talkio. I'm Theis, CEO and CTO. Artem leads design, Hammas leads development, and Ali is one of our developers. Maryna is our learning designer, making sure what we build actually helps people learn. And Greg leads sales and works with our partners.</aside>
+</section>
+<section id="closing" class="dark" style="justify-content:space-between">
+<img src="assets/talkio-white.png" alt="Talkio logo" style="width:320px; height:80px; object-fit:contain; align-self:flex-start">
+<div class="head" style="gap:32px">
+<h1 class="rise">Thank you</h1>
+<p class="lead rise d2" style="max-width:1200px">Questions, ideas and introductions to new partners are all welcome.</p>
+</div>
+<p class="small rise d3" style="color:var(--on-dark-soft)">talkio.ai</p>
+<aside>To sum up: Talkio already has partners around the world, from Berlitz and the University of Virginia in the US to SWAI in Brazil, pogad.ai in Poland and kmp. in Germany. Next, we're building it into a B2B product for language goals and progress tracking in large organisations, universities and schools, and Korea is part of that journey. Thank you. I'm happy to take questions.</aside>
+</section>
+</div></div>
+<nav id="nav" aria-label="Slides">
+<button id="prev" type="button" aria-label="Previous slide">&#8592;</button>
+<span id="count" aria-live="polite"></span>
+<button id="next" type="button" aria-label="Next slide">&#8594;</button>
+</nav>
+<script>
+  const slides = [...document.querySelectorAll("#deck > section")];
+  const deckEl = document.getElementById("deck");
+  const count = document.getElementById("count");
+  let index = 0;
+
+  function fit() {
+    const scale = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+    deckEl.style.transform = `scale(${scale})`;
+  }
+
+  function show(i) {
+    index = Math.max(0, Math.min(slides.length - 1, i));
+    slides.forEach((s, n) => s.classList.toggle("active", n === index));
+    count.textContent = `${index + 1} / ${slides.length}`;
+    history.replaceState(null, "", `#${index + 1}`);
+  }
+
+  document.getElementById("prev").addEventListener("click", (e) => { e.stopPropagation(); show(index - 1); });
+  document.getElementById("next").addEventListener("click", (e) => { e.stopPropagation(); show(index + 1); });
+  document.getElementById("stage").addEventListener("click", (e) => {
+    show(e.clientX < window.innerWidth / 3 ? index - 1 : index + 1);
+  });
+  document.addEventListener("keydown", (e) => {
+    if (["ArrowRight", "PageDown", " "].includes(e.key)) { e.preventDefault(); show(index + 1); }
+    if (["ArrowLeft", "PageUp"].includes(e.key)) { e.preventDefault(); show(index - 1); }
+    if (e.key === "Home") show(0);
+    if (e.key === "End") show(slides.length - 1);
+  });
+  let touchX = null;
+  document.addEventListener("touchstart", (e) => { touchX = e.touches[0].clientX; }, { passive: true });
+  document.addEventListener("touchend", (e) => {
+    if (touchX === null) return;
+    const dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 40) show(index + (dx < 0 ? 1 : -1));
+    touchX = null;
+  });
+  window.addEventListener("resize", fit);
+  fit();
+  show((parseInt(location.hash.slice(1), 10) || 1) - 1);
+</script>
+</body>
+</html>

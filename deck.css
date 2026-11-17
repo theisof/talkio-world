@@ -1,0 +1,352 @@
+:root {
+  --brand-neutral-main: #21222c;
+  --brand-neutral-900: #21222c;
+  --brand-neutral-800: #21222ccc;
+  --brand-neutral-700: #21222cb2;
+  --brand-neutral-100: #21222c1a;
+  --brand-primary-main: #2984e8;
+  --brand-primary-700: #216aba;
+  --brand-primary-10: #eaf3fd;
+  --brand-primary-25: #d4e6fa;
+  --brand-secondary-main: #7f6bff;
+  --brand-secondary-10: #f2f0ff;
+  --brand-green-main: #2fa464;
+  --brand-light-main: #f2f2f2f2;
+  --card-hairline: #21222c0f;
+  --special-talkioYellow: #f6d78b;
+  --on-dark: #f7f7f8;
+  --on-dark-soft: #c9cad3;
+}
+
+section {
+  background: var(--brand-light-main);
+  color: var(--brand-neutral-main);
+  font-family: 'Inter', Arial, sans-serif;
+  padding: 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+section.footer {
+  padding: 128px 128px 160px;
+}
+
+section.spread {
+  justify-content: space-between;
+}
+
+section.dark {
+  background: var(--brand-neutral-main);
+  color: var(--on-dark);
+}
+
+section.blue {
+  background: var(--brand-primary-700);
+  color: var(--on-dark);
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 120px;
+  line-height: 1.05;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 72px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 1.25;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.eyebrow {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--brand-primary-main);
+}
+
+.dark .eyebrow,
+.blue .eyebrow {
+  color: var(--special-talkioYellow);
+}
+
+.lead {
+  font-size: 32px;
+  line-height: 1.45;
+  color: var(--brand-neutral-700);
+}
+
+.dark .lead,
+.blue .lead {
+  color: var(--on-dark-soft);
+}
+
+.txt {
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--brand-neutral-700);
+}
+
+.small {
+  font-size: 24px;
+  line-height: 1.4;
+  color: var(--brand-neutral-700);
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid var(--card-hairline);
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 24px;
+}
+
+.row .card {
+  flex: 1;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.icon-tile {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: var(--brand-primary-10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-tile x-icon {
+  width: 32px;
+  height: 32px;
+  color: var(--brand-primary-main);
+}
+
+.foot-logo {
+  position: absolute;
+  right: 128px;
+  bottom: 64px;
+  width: 96px;
+  height: 24px;
+  object-fit: contain;
+}
+
+/* Partner slides: facts on the left, logo and brand colours on the right */
+.split {
+  display: flex;
+  gap: 64px;
+}
+
+.split .col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.split .side {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.facts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.fact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 24px;
+  border-left: 4px solid var(--brand-primary-main);
+}
+
+.logo-card {
+  background: #ffffff;
+  border: 1px solid var(--card-hairline);
+  border-radius: 24px;
+  height: 440px;
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-card img {
+  width: 520px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.swatches {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.sw {
+  width: 88px;
+  height: 88px;
+  border-radius: 20px;
+  border: 1px solid var(--card-hairline);
+}
+
+.stat {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--brand-primary-main);
+}
+
+.big-stat {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 120px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--brand-primary-main);
+}
+
+/* Overview cards */
+.pcard img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+}
+
+.pcard .logo-well {
+  background: #ffffff;
+  border-radius: 16px;
+  height: 160px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--card-hairline);
+}
+
+.country {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--brand-primary-main);
+}
+
+/* Journey */
+.step-num {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--brand-primary-main);
+  background: var(--brand-primary-10);
+  border-radius: 999px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  width: 48px;
+  height: 24px;
+  background: var(--brand-primary-25);
+  align-self: center;
+}
+
+ul.list {
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--brand-neutral-700);
+  padding-left: 32px;
+}
+
+/* Team */
+.team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.team .card {
+  gap: 8px;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 48px;
+  background: var(--brand-primary-10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.avatar .initials {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--brand-primary-main);
+}
+
+.team .role {
+  font-size: 24px;
+  line-height: 1.4;
+  color: var(--brand-primary-main);
+  font-weight: 600;
+}
+
+/* Motion: cards rise in on arrival, staged */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.rise {
+  animation: rise 500ms ease-out both;
+}
+
+.d1 { animation-delay: 100ms; }
+.d2 { animation-delay: 200ms; }
+.d3 { animation-delay: 300ms; }
+.d4 { animation-delay: 400ms; }
+.d5 { animation-delay: 500ms; }
+.d6 { animation-delay: 600ms; }
